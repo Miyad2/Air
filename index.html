@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="shortcut icon" href="../img/cotton.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index-responsive.css">
+
+</head>
+
+<body>
+    <div class="main-nav">
+        <div class="container full-bg">
+            <nav class="navbar navbar-expand-lg navbar-expand-lg ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Colapse"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+                <a href="index.html"><img class="logo" src="img/logo.webp" alt="logo"></a>
+                <div class="collapse navbar-collapse" id="Colapse">
+                    <ul class=" navbar-nav ml-auto  ">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="booking.html">My Booking</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- ===============================  Bannar  ================================ -->
+
+    <section class="bannar-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 m-auto">
+                    <div class="bannar-text">
+                        <div class="bannar-left">
+                            <h2 class="cursive-words">Adventure begins</h2>
+                            <h2 class="title">GO COMPARE PARKING</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bannar-right">
+                        <div class="right-form">
+                            <div class="col-lg-12 form-group w-100">
+                                <label for="">SELECT AIRPORT</label>
+                                <div class="form-input ">
+                                    <div class="form-icon">
+                                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                    </div>
+                                    <select class="form-control " name="selected" id="selected">
+                                        <option value="">Dhaka</option>
+                                        <option value="">Khulna</option>
+                                        <option value="">Jashore</option>
+                                        <option value="">Mirpur</option>
+                                        <option value="">Shylet</option>
+                                        <option value="">Chattrogram</option>
+                                        <option value="">Dinajpur</option>
+                                        <option value="">Rangpur</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 d-flex">
+                                <div class="left form-group">
+                                    <label for="">DROP OFF DATE</label>
+                                    <div class="form-input ">
+                                        <div class="form-icon">
+                                            <i class="fas fa-calendar"></i>
+                                        </div>
+                                        <input class="form-control" type="text" name="date" id="date" value="03-08-2022"
+                                            readonly>
+                                    </div>
+                                </div>
+                                <div class="left form-group">
+                                    <label for="">DROP OFF TIME</label>
+                                    <div class="form-input ">
+                                        <div class="form-icon">
+                                            <i class="fas fa-clock"></i>
+                                        </div>
+                                        <select class="form-control form-select" name="time" id="time" readonly>
+                                            <option value="00:00">00:00</option>
+                                            <option value="00:00">00:30</option>
+                                            <option value="00:00">01:00</option>
+                                            <option value="00:00">01:30</option>
+                                            <option value="00:00">02:00</option>
+                                            <option value="00:00">02:30</option>
+                                            <option value="00:00">03:00</option>
+                                            <option value="00:00">03:30</option>
+                                            <option value="00:00">04:00</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-12 d-flex">
+                                <div class="left form-group">
+                                    <label for="">PICK UP DATE</label>
+                                    <div class="form-input ">
+                                        <div class="form-icon">
+                                            <i class="fas fa-calendar"></i>
+                                        </div>
+                                        <input class="form-control" type="text" name="date" id="date" value="03-08-2022"
+                                            readonly>
+                                    </div>
+                                </div>
+                                <div class="left form-group">
+                                    <label for="">PICK UP TIME</label>
+                                    <div class="form-input ">
+                                        <div class="form-icon">
+                                            <i class="fas fa-clock"></i>
+                                        </div>
+                                        <select class="form-control form-select" name="time" id="time" readonly>
+                                            <option value="00:00">00:00</option>
+                                            <option value="00:00">00:30</option>
+                                            <option value="00:00">01:00</option>
+                                            <option value="00:00">01:30</option>
+                                            <option value="00:00">02:00</option>
+                                            <option value="00:00">02:30</option>
+                                            <option value="00:00">03:00</option>
+                                            <option value="00:00">03:30</option>
+                                            <option value="00:00">04:00</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">DISCOUNT CODE</label>
+
+                                    <div class="form-input">
+                                        <div class="form-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <input class="form-control" type="text" name="text" id="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">Phone Number</label>
+                                    <div class="form-input">
+                                        <div class="form-icon">
+                                            <i class="fas fa-phone-alt"></i>
+                                        </div>
+                                        <input class="form-control" type="number" name="number" id="number"
+                                            placeholder="Free SMS Alert">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button text-center">
+                                <button class="btn">SUBMIT</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ==========================  Bannar Bottom  ===================================== -->
+
+    <section class="bannar-bottom-part">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+                    <div class="bottm-section">
+                        <img src="img/best-price.png" alt="Icon">
+                        <div class="bottom-text">
+                            <h6>Exclusive </h6>
+                            <h6>Parking Prices</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+                    <div class="bottm-section">
+                        <img src="img/expert-support.png" alt="Icon">
+                        <div class="bottom-text">
+                            <h6>Reliable </h6>
+                            <h6>Customer Support</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+                    <div class="bottm-section border-0">
+                        <img src="img/customer-satisfaction.png" alt="Icon">
+                        <div class="bottom-text">
+                            <h6>100% </h6>
+                            <h6>Customer Satisfaction</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =====================  Journey Section  ============================= -->
+
+
+    <section class="journey">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="journey-heading heading-h2">
+                        <h2><span class="heading-color">Compare And Find The</span> Best Car Parking Deal Today</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="journey-text">
+                        <p>Go Compare Parking offers you a good opportunity to get reliable parking deals for the UK
+                            airport. You get to compare multiple deals with different service specifications and
+                            prices. All our deals are brought to you by our trusted parking partners, and any deal
+                            you pick here is a definite bargain. All the parking deals and services details are
+                            provided to make your choice easier. We ensure that our customers have a good experience
+                            and get guaranteed satisfaction from our carefully curated services.</p>
+
+                        <div class="button ">
+                            <button class="btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="journey-video">
+                        <div class="video-cover-img">
+                            <iframe  src="https://www.youtube.com/embed/M6MfnBG1zlk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="journey-video">
+                        <div class="video-cover-img">
+                            <iframe src="https://www.youtube.com/embed/M6MfnBG1zlk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================  Parking step section  ========================= -->
+
+    <section class="parking-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="parking-heading heading-h2">
+                        <h2> Quick 4 Step<span class="heading-color"> Airport Parking</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card-part">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/airport-parking-step-1.png" alt="Image">
+                            </div>
+                            <div class="card-text">
+                                <h6>STEP 1</h6>
+                                <p>Enter your airport and travel date to browse available parking deals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card-part">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/airport-parking-step-2.png" alt="Image">
+                            </div>
+                            <div class="card-text">
+                                <h6>STEP 2</h6>
+                                <p>Compare prices and read service details to choose your deal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card-part">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/airport-parking-step-3.png" alt="Image">
+                            </div>
+                            <div class="card-text">
+                                <h6>STEP 3</h6>
+                                <p>Provide all the booking details about the car and parking timings.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card-part">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/airport-parking-step-4.png" alt="Image">
+                            </div>
+                            <div class="card-text">
+                                <h6>STEP 4</h6>
+                                <p>Pay via our secure payment gateway and receive a booking confirmation email.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===========================  Parking Type  ================================= -->
+    <section class="parking-type-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class=" heading-h2">
+                        <h2>Type of<span class="heading-color"> Parking Service We Offer
+                        </span></h2>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" parking-type-card-part">
+                        <div class=" parking-type-card">
+                            <div class="parking-type-card-img">
+                                <img src="img/handshake.png" alt="Image">
+                            </div>
+                            <div class="card-text">
+                                <h6>MEET AND GREET</h6>
+                                <p>Opt for convenient meet and greet parking and drive straight to your terminal. Leave
+                                    your car with the professional driver at the terminal and collect it upon return.
+                                    The drivers are insured, which means your car is in safe hands.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" parking-type-card-part">
+                        <div class=" parking-type-card">
+                            <div class="parking-type-card-img">
+                                <img src="img/parking.png" alt="Image">
+                            </div>
+                            <div class="card-text">
+                                <h6>PARK AND RIDE</h6>
+                                <p>When it comes to safe and affordable parking, it does not get any better than park
+                                    and ride. You get to drive and park yourself at the secure off-site compound and
+                                    enjoy a complimentary shuttle transfer service to and from the airport.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" parking-type-card-part">
+                        <div class=" parking-type-card">
+                            <div class="parking-type-card-img">
+                                <img src="img/offer.webp" alt="Image">
+                            </div>
+                            <div class="card-text">
+                                <h6>ON SITE AIRPORT PARKING</h6>
+                                <p>Grab our cheap on-site airport parking offers and save up to 60%. Compare to book
+                                    your airport parking deal today. Our services are affordable, trustworthy, and easy
+                                    to book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========================  Subscribe Section  ========================== -->
+    <section class="subscribe-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="subscribe-part">
+                        <div class="subscribe-text">
+                            <h4>Subscribe here to get exclusive discounts and offers.</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
+                                <form class="subscribe-form" action="">
+                                    <input class="form-control subs-form" type="text" name="name" id="name"
+                                        placeholder="Your Name">
+                                    <input class="form-control subs-form" type="text" name="email" id="email"
+                                        placeholder="yourmail@host.com">
+                                    <button class="btn subs-form" type="submit">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =======================  Slider  ============================= -->
+    <section class="slider slider-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class=" heading-h2">
+                        <h2><span class="heading-color"> Compare Our Affordable </span>Airport Parking Deals At:</h2>
+                    </div>
+                    <div class="team-slider all-slider">
+                        <a href="#">
+                            <div class="first-slider">
+                                <img src="img/luton.jpg" alt="Image">
+                                <div class="slider-text">
+                                    <p> Compare Birmingham Airport Parking</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="first-slider">
+                                <img src="img/gatwick.jpg" alt="Image">
+                                <div class="slider-text">
+                                    <p>Compare Birmingham Airport Parking</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="first-slider">
+                                <img src="img/birmingham.jpg" alt="Image">
+                                <div class="slider-text">
+                                    <p> Compare Gatwick Airport Parking</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="first-slider">
+                                <img src="img/stansted.jpg" alt="">
+                                <div class="slider-text">
+                                    <p> Compare Manchester Airport Parking</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="first-slider">
+                                <img src="img/heathrow.jpg" alt="Image">
+                                <div class="slider-text">
+                                    <p> Compare Heathrow Airport Parking</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="first-slider">
+                                <img src="img/manchester.jpg" alt="Image">
+                                <div class="slider-text">
+                                    <p> Compare Stansted Airport Parking</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================  Upper Footer  ================================= -->
+
+    <section class="upper-footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="upper-footer-part">
+                        <div class="upper-footer-logo">
+                            <a href="#"><img class="logo" src="img/logo-white.webp" alt="Logo"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 ">
+                    <div class="upper-footer-part">
+                        <div class="upper-footer-logo">
+                            <div class="upper-footer-text">
+                                <h6>ADDRESS</h6>
+                            </div>
+                            <div class="upper-footer-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p><a target="_blank" href="https://goo.gl/maps/qjCdh7iweWdzCcgx5"> Dhaka,
+                                        Bangladesh</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="upper-footer-part contact">
+                        <div class="upper-footer-logo">
+                            <div class="upper-footer-text">
+                                <h6>CONTACT</h6>
+                            </div>
+                            <div class=" display-flex">
+                                <div class="upper-footer-icon margin ">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <p><a href="tel:+880 1000000000"> +880 1000000000</a></p>
+                                </div>
+                                <div class="upper-footer-icon ">
+                                    <i class="fas fa-envelope"></i>
+                                    <p><a href="mailto:yourmail@host.com"> yourmail@host.com</a></p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="upper-footer-part">
+                        <div class="upper-footer-logo">
+                            <div class="upper-footer-text">
+                                <h6>WE ACCEPT</h6>
+                            </div>
+                            <div class="upper-footer-icon payment">
+                                <img class="payment-card paypal" src="img/paypal-logo.webp" alt="Logo">
+                                <img class="payment-card visa" src="img/visa-logo.webp" alt="Logo">
+                                <img class="payment-card mastarcard" src="img/mastercard-logo.svg" alt="Logo">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =======================  Footer  ============================= -->
+
+    <footer>
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-3 ">
+                    <div class="footer-social">
+                        <p class="footer-text">FOLLOW US ON:</p>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="footer-link">
+                        <nav class="navbar navbar-expand-lg navbar-expand-lg ">
+                            <ul class=" navbar-nav   ">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">Privacy & policy</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">Terms & Condition</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-3 ">
+                    <div class="copyright-text">
+                        <p class="footer-text">DESIGNED BY <a href="#">Miyad Mursalin</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

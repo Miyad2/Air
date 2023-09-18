@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid.contact-bannar {
+    padding: 0;
+}
+
+section.contact-bannar-section {
+    background: var(--background);
+    padding: 0;
+    z-index: -1;
+}
+
+.contact-bannar-title {
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-bannar-title button.btn {
+    background: linear-gradient(to left, red 50%, #3807de 50%);
+    background-position: right;
+    border: none;
+    background-size: 200%;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact-bannar-title button.btn:hover {
+    background-position: left;
+}
+
+.contact-bannar-img {
+    background: url(../img/contact-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+/* =========================  Social Icon  ============================== */
+/* .contact-social-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+} */
+section.contact-social-icon-section {
+    padding-top: 0;
+}
+
+.contact-social-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    width: 200px;
+    height: 200px;
+    background: #000;
+    color: #fff;
+    font-size: 142px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0px 18px;
+}
+
+.social-icon:hover {
+    background: var(--button);
+}
+
+
+/* ===========================  Testimonial Section  ============================ */
+section.contact-testimonial{
+    background: url(../img/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.contact-testimonial .card-text p {
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+section.contact-testimonial .card {
+    box-shadow: none;
+    border: none;
+    background: #ffffff;
+    min-height: 216px;
+}
+
+
+
+section.contact-testimonial .card::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 100%;
+    right: 15%;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 50px solid #ffffff;
+}
+
+.testimonial-card-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+    margin-top: 35px;
+}
+.testimonial-card-img .img-text h6 {
+    margin: 0px 19px 0px 65px;
+    font-weight: 600;
+}
+
+.testimonial-img img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.testimonial-contact-slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.testimonial-slider {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+i.slider-icon.slick-arrow {
+    cursor: pointer;
+}
+i.fas.fa-angle-left.slider-icon.slick-arrow {
+    margin-right: 10px;
+    margin-top: -50px;
+}
+i.fas.fa-angle-right.slider-icon.slick-arrow {
+    margin-left: 10px;
+    margin-top: -50px;
+}
+
+
+
+
+
+
+
+

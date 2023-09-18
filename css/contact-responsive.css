@@ -1,0 +1,132 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 100.98px) {
+
+
+
+    
+
+}
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 375.98px) {
+    .contact-bannar-title {
+        padding: 80px 0px;
+        width: 90%;
+    }
+    .contact-bannar-img{
+        height: 320px;
+    }
+    .heading-h2 h2{
+        margin-bottom: 0;
+    }
+    .social-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 45px;
+        margin: 0px 7px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 575.98px) {
+
+    .social-icon {
+        width: 87px;
+        height: 87px;
+        font-size: 62px;
+        margin: 0px 7px;
+    }
+    
+     
+
+
+
+
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 767.98px) {
+
+    .contact-bannar-img {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+    }
+    
+
+}
+
+
+
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 991.98px) {
+
+    .social-icon {
+        width: 145px;
+        height: 145px;
+        background: #000;
+        color: #fff;
+        font-size: 104px;
+        text-align: center;
+        border-radius: 15px;
+        margin: 0px 18px;
+    }
+    .contact-bannar-title {
+        padding:  0px;
+        width: 50%;
+    }
+    .contact-bannar-img {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+    }
+
+    section.contact-testimonial .card {
+        margin: 0px 6px;
+    }
+
+
+
+}
+
+
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+
+@media (min-width: 1199.98px) {
+
+
+    
+
+
+
+
+}
+
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+
+@media (min-width: 1399.98px) {
+
+
+
+    
+
+
+}

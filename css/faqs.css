@@ -1,0 +1,78 @@
+section.faqs-bannar-section{
+    background:linear-gradient(#0a0a0a94, #0a0a0a94), url(../img/about-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+/* ===================  FAQs Section  ================== */
+/* section#faq {
+    padding: 0px 0px 60px 0px;
+} */
+.faqs {
+    margin: 2rem 0rem;
+}
+
+.faqs_container {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* background-color: var(--black); */
+}
+
+.faq {
+    padding: 23px 32px 12px 32px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    /* background-color: var(--primary); */
+    background: #dfeffc 50% 50% repeat-x;
+    color: var(--bg);
+    text-align: justify;
+    cursor: pointer;
+    border-radius: 1rem;
+    position: relative;
+}
+.faq:hover{
+    background: #d0e5f5;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.23;
+    font-weight: bold;
+}
+
+
+.faq_icon {
+    align-self: flex-start;
+    font-size: 1.3rem;
+
+}
+
+.faq .faqs-display-hide {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+/* for showing ans on click */
+
+.faq.open .faqs-display-hide {
+    display: block;
+}
+
+
+
+
+/* ============================ */
+
+iframe.faqs-iframe {
+    width: 300px;
+    height: 150px;
+}
+
+
+

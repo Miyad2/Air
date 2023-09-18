@@ -1,0 +1,64 @@
+section.Booking-bannar-section{
+    background: linear-gradient(#0a0a0a94, #0a0a0a94), url(../img/booking-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+
+/* ===================  Booking Form  ======================= */
+section.booking-form-section {
+    position: relative;
+}
+section.booking-form-section .journey-heading.heading-h2 p {
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+section.booking-form-section .first-form.form-group label {
+    font-weight: 600;
+}
+section.booking-form-section form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.first-form.form-group {
+    margin: 0px 10px;
+}
+.button.booking-button {
+    margin: 10px auto;
+}
+.booking-form-or-text.text-center h4 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+.booking-box-shadow{
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgb(0 0 0 / 10%);
+    position: absolute;
+    top: -120px;
+    border-radius: 15px;
+}
+.first-form.form-group input.form-control {
+    background: #f1f1f1f1;
+    border-radius: 25px;
+}
+.first-form.form-group input.form-control::placeholder{
+    color: #9999;
+}
+.first-form.form-group .form-control:focus{
+    background: #f1f1f1f1;
+    outline: none;
+    border-color: #cfcfcf;
+    box-shadow: none;
+}
+
+
+/* ========================  Booking Text  =========================== */
+section.booking-text-section {
+    margin: 50px 0px;
+}

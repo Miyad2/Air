@@ -1,0 +1,72 @@
+
+/* =====================  Bannar Section  ========================== */
+section.about-bannar-section{
+    background:linear-gradient(#0a0a0a94, #0a0a0a94), url(../img/about-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+ .bannar-title {
+    text-align: center;
+    color: #ffffff;
+}
+ .bannar-title h2 {
+    font-weight: 600;
+}
+ .bannar-title p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* =====================  About Text Section  ====================== */
+
+
+section.about-text-section .about-text {
+    padding: 35px 90px 0px 0px;
+}
+
+section.about-text-section .click-display {
+    display: none;
+}
+/* ======== JS Click  ========= */
+.display{
+    display: block;
+}
+
+
+/* ======================  About icon Section  ======================== */
+section.about-icon-section{
+    background: var(--background);
+}
+section.about-icon-section .journey-heading.heading-h2 {
+    color: #ffffff;
+}
+.about-icon {
+    text-align: center;
+}
+.about-icon img {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.about-icon-text {
+    color: #ffffff;
+    padding: 20px 0px;
+}
+.about-icon-text h6{
+    font-size: 18px;
+}
+
+
+/* ===========================  About Text Sec   ============================ */
+
+
+section.about-text-sec .about-text {
+    padding: 20px 90px 0px 0px;
+}
+section.about-text-sec .about-text h2 {
+    font-weight: 600;
+}
+
